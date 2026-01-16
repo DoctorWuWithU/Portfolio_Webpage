@@ -147,6 +147,7 @@ function App() {
             { img: './FinanceTracker.png', title: 'Finance Tracker', tech: '(Python / Pandas / Matplotlib)' },
             { img: './StudentInfo.png', title: 'Student Info Tracker', tech: '(Java / MySQL)' },
             { img: './Unit.png', title: 'Unit Converter', tech: '(React / JavaScript)' },
+            { img: './Pong.png', title: 'Pong Game', tech: '(Java)' },
           ].map((project) => (
             <div key={project.title} className="card">
               <div className="slide slide1">
